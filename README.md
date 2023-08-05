@@ -13,6 +13,19 @@ make prod
 
 * [Package pyhello](https://test.pypi.org/project/pyhello-mn3m00/)
 
+```shell
+$ make test
+...
+Installing collected packages: pyhello_mn3m00
+Successfully installed pyhello_mn3m00-0.0.1
+python3 tests/test_simple.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+```
+
 ### Testing module live
 
 ```sh
